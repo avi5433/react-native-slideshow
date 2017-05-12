@@ -86,9 +86,9 @@ class App extends React.Component {
             <Icon
               name='ios-arrow-round-back'
               type='ionicon'
-              size={100}
+              size={60}
               color='green'
-              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'red'}}
+              containerStyle={{borderRadius: 30, width: 60, height: 60, borderWidth: 2, borderColor: 'red'}}
               onPress={this.onPressLeftButton.bind(this)}
             />
           </View>
@@ -96,9 +96,9 @@ class App extends React.Component {
             <Icon
               name='ios-arrow-round-forward'
               type='ionicon'
-              size={100}
+              size={60}
               color='red'
-              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'yellow'}}
+              containerStyle={{borderRadius: 30, width: 60, height: 60, borderWidth: 2, borderColor: 'yellow'}}
               onPress={this.onPressRightButton.bind(this)}
             />
           </View>
