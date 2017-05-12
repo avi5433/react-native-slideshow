@@ -88,7 +88,7 @@ class App extends React.Component {
               type='ionicon'
               size={100}
               color='green'
-              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'black'}}
+              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'red'}}
               onPress={this.onPressLeftButton.bind(this)}
             />
           </View>
@@ -98,7 +98,7 @@ class App extends React.Component {
               type='ionicon'
               size={100}
               color='red'
-              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'black'}}
+              containerStyle={{borderRadius: 50, width: 100, height: 100, borderWidth: 2, borderColor: 'yellow'}}
               onPress={this.onPressRightButton.bind(this)}
             />
           </View>
